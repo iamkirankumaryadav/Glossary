@@ -102,7 +102,7 @@ def get_user(user_id: int):
 
 @app.post("/users/")
 def create_user(name: str):
-    return {"id": 8, "name": name}
+    return {"id": 007, "name": name}
 ```
 
 # Logging and Monitoring 📊
