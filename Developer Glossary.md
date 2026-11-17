@@ -34,3 +34,57 @@ Imagine clicking "Checkout" in an online shopping app:
 2. Backend: Your server receives the request, checks inventory in its database, and calculates the final total.
 3. Services: Your backend calls an external Payment Service to charge your card, then calls an internal Email Service to send your receipt.
 4. Frontend: Your backend tells the frontend the order succeeded, and your screen updates to show "Order Confirmed."
+
+# Logging and Monitoring 📊
+
+### Logging and monitoring help developers understand what is happening inside an application.
+
+Imagine driving a car.
+- Dashboard indicators show current speed and fuel.
+- Event records help identify what happened during a journey.
+
+Backend applications need similar visibility.
+
+### Logging: 
+Logging records events that happen inside an application.
+
+Example:
+```log
+INFO: User logged in successfully.
+WARNING: API response is slow.
+ERROR: Database connection failed.
+```
+
+### Monitoring:
+Monitoring continuously tracks the health and performance of an application.
+
+### Common Metrics:
+- CPU Utilization.
+- Memory Usage.
+- API Response Time.
+- Request Count.
+- Error Rate.
+- Database Performance.
+- Queue Processing Time.
+
+### Popular Tools:
+Category |	Tools
+:--- | :---
+Logging |	ELK Stack, Loki
+Monitoring |	Prometheus
+Dashboards |	Grafana
+Application Monitoring |	Datadog, New Relic
+Error Tracking |	Sentry
+Distributed Tracing |	OpenTelemetry
+
+### Example: 
+Suppose your AI application takes 30 seconds to generate a response.
+
+Monitoring can help identify whether the delay comes from:
+- Slow database queries.
+- External LLM API latency.
+- Network problems.
+- Insufficient infrastructure.
+- Slow background processing.
+
+### Logging tells you what happened. Monitoring tells you how your system is performing.
