@@ -35,6 +35,76 @@ Imagine clicking "Checkout" in an online shopping app:
 3. Services: Your backend calls an external Payment Service to charge your card, then calls an internal Email Service to send your receipt.
 4. Frontend: Your backend tells the frontend the order succeeded, and your screen updates to show "Order Confirmed."
 
+# REST APIs 🌐
+
+### REST API stands for REpresentational State Transfer Application Programming Interface.
+
+Think of a restaurant waiter.
+- You (customer) request food.
+- The waiter (API) takes your order.
+- The kitchen (backend) prepares it.
+- The waiter brings your food (response).
+A REST API allows two applications to communicate over HTTP.
+
+### Common HTTP Methods:
+Method |	Purpose |	Example
+:--- |:--- | :---
+GET |	Retrieve data |	Get user details
+POST |	Create data |	Create a new user
+PUT |	Replace existing data |	Update user profile
+PATCH |	Partially update data	| Update email
+DELETE |	Delete data |	Delete user account
+
+Example:
+```
+GET /api/users/007
+```
+
+Response:
+```json
+{
+  "id": 007,
+  "name": "Kirankumar Yadav",
+  "role": "AI ML Engineer"
+}
+```
+
+# FastAPI ⚡
+
+FastAPI is a modern, fast (high-performance) web framework for building APIs with Python based on standard Python type hints.
+
+Think of it like a highly efficient waiter in a restaurant:  
+- You (client) make a request.  
+- FastAPI (waiter) validates and processes your request quickly.  
+- The backend (kitchen) prepares the response.  
+- FastAPI delivers the response back to you.  
+
+FastAPI automatically generates interactive API documentation and ensures data validation, making it easier and safer to build robust APIs.
+
+### Common FastAPI Methods:
+Method | Purpose | Example
+:--- | :--- | :---
+`@app.get()` | Retrieve data | `@app.get("/users/{user_id}")`  
+`@app.post()` | Create data | `@app.post("/users/")`  
+`@app.put()` | Replace existing data | `@app.put("/users/{user_id}")`  
+`@app.patch()` | Partially update data | `@app.patch("/users/{user_id}")`  
+`@app.delete()` | Delete data | `@app.delete("/users/{user_id}")`  
+
+Example:
+```python
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/users/{user_id}")
+def get_user(user_id: int):
+    return {"id": user_id, "name": "Kirankumar Yadav"}
+
+@app.post("/users/")
+def create_user(name: str):
+    return {"id": 8, "name": name}
+```
+
 # Logging and Monitoring 📊
 
 ### Logging and monitoring help developers understand what is happening inside an application.
