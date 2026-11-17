@@ -45,18 +45,16 @@ Imagine driving a car.
 
 Backend applications need similar visibility.
 
-### Logging: 
-Logging records events that happen inside an application.
+### Logging records events that happen inside an application.
 
 Example:
-```log
+```json
 INFO: User logged in successfully.
 WARNING: API response is slow.
 ERROR: Database connection failed.
 ```
 
-### Monitoring:
-Monitoring continuously tracks the health and performance of an application.
+### Monitoring continuously tracks the health and performance of an application.
 
 ### Common Metrics:
 - CPU Utilization.
@@ -77,8 +75,7 @@ Application Monitoring |	Datadog, New Relic
 Error Tracking |	Sentry
 Distributed Tracing |	OpenTelemetry
 
-### Example: 
-Suppose your AI application takes 30 seconds to generate a response.
+Example: Suppose your AI application takes 30 seconds to generate a response.
 
 Monitoring can help identify whether the delay comes from:
 - Slow database queries.
