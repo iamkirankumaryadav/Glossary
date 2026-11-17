@@ -35,6 +35,5 @@ As applications grow, putting all backend logic into one giant program becomes h
 Imagine clicking "Checkout" in an online shopping app:
 1. Frontend: You click the "Pay Now" button on your phone. The frontend sends your cart details to your backend API.
 2. Backend: Your server receives the request, checks inventory in its database, and calculates the final total.
-3. Services: Your backend calls an external Payment Service (like Stripe) to charge your card, then calls an internal Email Service to send your receipt.
+3. Services: Your backend calls an external Payment Service to charge your card, then calls an internal Email Service to send your receipt.
 4. Frontend: Your backend tells the frontend the order succeeded, and your screen updates to show "Order Confirmed."
-Are you designing a new app architecture and trying to decide how to structure these layers, or looking to learn which programming stack to start building with?
