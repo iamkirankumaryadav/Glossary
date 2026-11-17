@@ -16,7 +16,7 @@ Common Tech |	HTML, CSS, JavaScript, React, Swift, Flutter. |	Python, Node.js, J
 
 The frontend is everything a user sees, clicks, and types into on their screen. It acts as the HTTP client in a web or mobile app.
 - Responsibilities. Rendering layouts, animations, buttons, forms, and validating basic user inputs before sending them off.
-- Security Limitation. Because frontend code runs directly on the user's device, anyone can inspect it. Sensitive secrets—like database passwords or OpenAI API keys—must never live here.
+- Security Limitation. Because frontend code runs directly on the user's device, anyone can inspect it. Sensitive secrets like database passwords or OpenAI API keys must never live here.
 
 ### 2. The Backend (The Brain)
 
@@ -27,14 +27,14 @@ The backend is the unseen engine running on remote servers that powers the appli
 ### 3. Services (The Specialists)
 
 As applications grow, putting all backend logic into one giant program becomes hard to maintain. Developers break specific tasks out into independent services, which communicate with the main backend via APIs.
-- Internal Microservices. Dedicated pieces of your own system built for one job—such as an Authentication Service for logins, a Notification Service for alerts, or a Search Service.
-- External (Third-Party) Services. Specialized tools built by other companies that your backend calls over the internet—such as Stripe for payments, Twilio for SMS, or OpenAI for AI responses.
+- Internal Microservices. Dedicated pieces of your own system built for one job, such as an Authentication Service for logins, a Notification Service for alerts, or a Search Service.
+- External (Third-Party) Services. Specialized tools built by other companies that your backend calls over the internet, such as Stripe for payments, Twilio for SMS, or OpenAI for AI responses.
 
 ### How They Work Together in Real Life
 
 Imagine clicking "Checkout" in an online shopping app:
-1. Frontend. You click the "Pay Now" button on your phone. The frontend sends your cart details to your backend API.
-2. Backend. Your server receives the request, checks inventory in its database, and calculates the final total.
-3. Services. Your backend calls an external Payment Service (like Stripe) to charge your card, then calls an internal Email Service to send your receipt.
-4. Frontend. Your backend tells the frontend the order succeeded, and your screen updates to show "Order Confirmed."
+1. Frontend: You click the "Pay Now" button on your phone. The frontend sends your cart details to your backend API.
+2. Backend: Your server receives the request, checks inventory in its database, and calculates the final total.
+3. Services: Your backend calls an external Payment Service (like Stripe) to charge your card, then calls an internal Email Service to send your receipt.
+4. Frontend: Your backend tells the frontend the order succeeded, and your screen updates to show "Order Confirmed."
 Are you designing a new app architecture and trying to decide how to structure these layers, or looking to learn which programming stack to start building with?
