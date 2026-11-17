@@ -48,7 +48,7 @@ Backend applications need similar visibility.
 ### Logging records events that happen inside an application.
 
 Example:
-```json
+```
 INFO: User logged in successfully.
 WARNING: API response is slow.
 ERROR: Database connection failed.
