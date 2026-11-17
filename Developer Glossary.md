@@ -30,7 +30,7 @@ As applications grow, putting all backend logic into one giant program becomes h
 - Internal Microservices: Dedicated pieces of your own system built for one job, such as an Authentication Service for logins, a Notification Service for alerts, or a Search Service.
 - External (Third-Party) Services: Specialized tools built by other companies that your backend calls over the internet, such as Stripe for payments, Twilio for SMS, or OpenAI for AI responses.
 
-### How They Work Together in Real Life
+### How They Work Together in Real Life?
 
 Imagine clicking "Checkout" in an online shopping app:
 1. Frontend: You click the "Pay Now" button on your phone. The frontend sends your cart details to your backend API.
