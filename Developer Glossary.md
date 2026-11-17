@@ -473,6 +473,7 @@ ID | Name	| Department
 
 ### SQL vs NoSQL:
 Feature |	SQL |	NoSQL
+:--- | :--- | :---
 Structure |	Tables |	Documents, key-value, etc.
 Schema |	Generally predefined |	Often flexible
 Relationships |	Strong relational support |	Depends on database type
