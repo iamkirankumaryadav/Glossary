@@ -884,7 +884,7 @@ employee = Employee(
     email="invalid-email"
 )
 ```
-Pydantic raises a ValidationError because:
+Pydantic raises a `ValidationError` because:
 - Age is not greater than 18.
 - Email is invalid.
 This means invalid data is caught before your application uses it.
