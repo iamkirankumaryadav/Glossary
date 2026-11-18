@@ -25,7 +25,7 @@ The backend is the unseen engine running on remote servers that powers the appli
 
 ### 3. Services (The Specialists)
 As applications grow, putting all backend logic into one giant program becomes hard to maintain. Developers break specific tasks out into independent services, which communicate with the main backend via APIs.
-- Internal Microservices: Dedicated pieces of your own system built for one job, such as an Authentication Service for logins, a Notification Service for alerts, generating tokens with auto refresh mechanism, or a Search Service.
+- Internal Microservices: Dedicated pieces of your own system built for one job, such as an Authentication Service for logins, a Notification Service for alerts, generating tokens with auto refresh mechanism, or a Search Service for Chatbot.
 - External (Third-Party) Services: Specialized tools built by other companies that your backend calls over the internet, such as Stripe for payments, Twilio for SMS, or OpenAI for AI responses.
 
 ### How They Work Together in Real Life?
