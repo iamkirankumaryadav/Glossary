@@ -2,7 +2,7 @@
 
 ### Frontend, backend, and services are the core layers of modern software architecture. 
 - Frontend: The visual user interface (UI) we interact with (see, click, type, scroll, etc.)
-- Backend: The behind-the-scenes engine handling business logic, calculations, and database operations.
+- Backend: The behind-the-scenes, handling business logic, calculations, and database operations.
 - Services: Modular, specialized backend components either built internally or provided by third parties, that perform specific tasks.
 
 ### How They Compare
