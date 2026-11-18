@@ -9,7 +9,7 @@
 Feature |	Frontend |	Backend |	Services
 :--- | :--- | :--- | :---
 Also Known As	| Client-side, UI (User Interface). |	Server-side, Core Application. |	Microservices, APIs, Third-Party Integrations.
-Primary Role | Displays information and captures user actions. | Processes data, enforces security, and manages databases. |	Executes one focused task (e.g., payments, emails, AI).
+Primary Role | Display information and capture user actions. | Process data, enforce security, and manage databases. |	Execute one focused task (e.g., payments, emails, AI).
 Where It Runs |	On the user's device (browser, phone, desktop). |	On remote cloud servers. |	On dedicated servers (internal or external).
 Common Tech |	HTML, CSS, JavaScript, React, Swift, Flutter. |	Python, Node.js, Java, Go, PostgreSQL, MongoDB. |	REST/gRPC APIs, Docker, Stripe, Twilio, OpenAI.
 
