@@ -44,6 +44,7 @@ Think of a restaurant waiter.
 - The waiter (API) takes your order.
 - The kitchen (backend) prepares it.
 - The waiter brings your food (response).
+
 A REST API allows two applications to communicate over HTTP.
 
 ### Common HTTP Methods:
