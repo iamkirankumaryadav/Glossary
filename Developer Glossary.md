@@ -909,9 +909,7 @@ Imagine driving a car.
 - Dashboard indicators show current speed and fuel.
 - Event records help identify what happened during a journey.
 
-Backend applications need similar visibility.
-
-### Logging records events that happen inside an application.
+### Logging records the backend events that happen inside an application.
 
 Example:
 ```
